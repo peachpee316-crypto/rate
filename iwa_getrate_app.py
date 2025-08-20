@@ -1,4 +1,4 @@
-"""為替計算アプリ(スクレイピング)"""
+"""為替レート計算アプリ(スクレイピング)"""
 
 import tkinter as tk,tkinter.ttk as ttk
 import datetime as dt
@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 # ----------GUI--------------------------------
 
 root = tk.Tk()
-root.title("リアルタイム為替計算アプリ")
+root.title("リアルタイム為替レート計算アプリ")
 root.minsize(700,400)
 root["bg"] = "#e5ffcc"  #薄い黄色
 
@@ -65,7 +65,7 @@ error = tk.Label (fg="#FF0000",
 error.place(relx=0.5,rely=0.7,anchor=tk.CENTER)
 
 # ---------------GUI-----------------------
-text1 = tk.Label(text="為替計算",
+text1 = tk.Label(text="為替レート計算",
                  font = ("メイリオ",20,""),
                  pady = 10,bg = "#e5ffcc")  #パディングy
 text1.pack()
