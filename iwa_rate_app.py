@@ -1,10 +1,10 @@
-"""為替計算アプリ"""
+"""為替レート計算アプリ"""
 
 import tkinter as tk,tkinter.ttk as ttk
 import datetime as dt
 
 root=tk.Tk()
-root.title("為替計算アプリ")
+root.title("為替レート計算アプリ")
 root.minsize(600,400)
 root["bg"]="#d6eaff"
 
@@ -54,7 +54,7 @@ error.place(relx=0.5,rely=0.7,anchor=tk.CENTER)
 
 # ------------------------------------------
 
-text1=tk.Label(text="為替計算",
+text1=tk.Label(text="為替レート計算",
               font=("メイリオ",20,""),
               pady=10,bg="#d6eaff")  #パディングy
 text1.pack()
